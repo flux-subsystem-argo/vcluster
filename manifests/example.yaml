@@ -20,13 +20,4 @@ metadata:
   name: vcluster
   namespace: vcluster
 spec:
-  controlPlaneEndpoint:
-    host: ""
-    port: 0
-  helmRelease:
-    chart:
-      name: null
-      repo: null
-      version: null
-    values: ""
   kubernetesVersion: 1.23.0
